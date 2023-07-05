@@ -181,11 +181,11 @@ h1,h2,h3,h4,h5
 #home h1
     {
         border: 2px solid #D43F52;
-				border-radius:50%;
+				border-radius:100%;
         color: #D43F52;
         display: inline-block;
         letter-spacing: 6px;
-        padding: 25px 35px;
+        padding: 10px 10px;
         margin: 30px 0;
     }
 #home h2
