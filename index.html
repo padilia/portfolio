@@ -1,215 +1,211 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; img-src 'self' data: https://*.licdn.com https://*.linkedin.com; script-src 'self' https://platform.linkedin.com https://*.licdn.com https://*.linkedin.com; style-src 'self' 'unsafe-inline' https://*.licdn.com https://*.linkedin.com; frame-src https://*.linkedin.com https://*.licdn.com; connect-src 'self' https://*.linkedin.com https://*.licdn.com; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#06111f">
+  <meta name="description" content="Portfólio de Lucas Padilia — DevOps, SRE, monitoramento, automação, segurança operacional, containers e infraestrutura.">
+  <meta name="author" content="Lucas Padilia">
 
-		<title>Lucas Padilia - Portfolio</title>
-		<meta name="keywords" content="">
-		<meta name="description" content="">
-        <meta name="author" content="templatemo">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lucas Padilia | DevOps, SRE & Observability">
+  <meta property="og:description" content="Infraestrutura, automação, observabilidade, segurança operacional, GitLab CI/CD, Proxmox, Docker e Zabbix.">
+  <meta property="og:image" content="images/perfil.png">
 
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lucas Padilia | DevOps, SRE & Observability</title>
+  <link rel="icon" href="images/perfil.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Voltar ao início">
+      <span class="brand-mark">LP</span>
+      <span class="brand-text">Lucas Padilia</span>
+    </a>
 
-		<!-- animate -->
-		<link rel="stylesheet" href="css/animate.min.css">
-		<!-- bootstrap -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- font-awesome -->
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<!-- google font -->
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,800' rel='stylesheet' type='text/css'>
-		<!-- fullpage -->
-		<link rel="stylesheet" href="css/jquery.fullPage.css">
-		<!-- custom -->
-		<link rel="stylesheet" href="css/templatemo-style.css">
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#especialidades">Especialidades</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#stack">Stack</a>
+      <a href="#certificacoes">Certificações</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-	</head>
-	<body>
+  <main>
+    <section id="home" class="hero section-shell">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="eyebrow">DevOps • SRE • Observabilidade • Segurança operacional</div>
+        <h1>Infraestrutura segura, automatizada e observável.</h1>
+        <p class="hero-lead">
+          Sou Lucas Padilia, profissional de TI com atuação em DevOps, automação,
+          monitoramento e infraestrutura. Trabalho para transformar ambientes críticos em
+          operações previsíveis, rastreáveis e com menos intervenção manual.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contato">Falar comigo</a>
+          <a class="button button-secondary" href="#experiencia">Ver experiência</a>
+        </div>
+      </div>
 
-	<div id="fullpage">
+      <aside class="profile-card" aria-label="Resumo profissional">
+        <div class="linkedin-live" aria-label="Cartão público do LinkedIn de Lucas Padilia">
+          <div class="badge-base LI-profile-badge"
+               data-locale="pt_BR"
+               data-size="medium"
+               data-theme="dark"
+               data-type="VERTICAL"
+               data-vanity="lucaspadilia"
+               data-version="v1">
+            <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/lucaspadilia/" target="_blank" rel="noopener noreferrer">Lucas Padilia no LinkedIn</a>
+          </div>
+        </div>
+        <div class="profile-fallback">
+          <img src="images/perfil.png" alt="Foto de perfil de Lucas Padilia" class="profile-photo" loading="lazy">
+        </div>
+        <div>
+          <h2>Lucas Padilia</h2>
+          <p>DevOps • Observability • Infrastructure</p>
+        </div>
+        <div class="profile-stats">
+          <span><strong>Zabbix</strong>Observabilidade</span>
+          <span><strong>GitLab</strong>CI/CD</span>
+          <span><strong>Linux</strong>Hardening & operação</span>
+        </div>
+      </aside>
+    </section>
 
-		<!-- start home -->
-		<div id="home" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-2"></div>
-					<div class="col-md-8 wow fadeIn" data-wow-delay="0.9s">
-						<h3>Lucas Padilia</h3>
-						<h1><img src="images/perfil.png" class="img-responsive"></h1>
-						<h2 class="rotate">DevOps , ZCS & ZCP , GitLab CA , dCAA </h2>
-						<p>Como profissional apaixonado por tecnologia open-source, tenho experiência em diversas áreas da tecnologia da informação, incluindo administração, gestão e suporte associados à infraestrutura de TI e aplicações. Além disso, possuo habilidades de troubleshooting e sou hands-on, o que me permite identificar e resolver problemas com eficiência.</p>
-						<p>Atualmente, meu foco principal é em DevOps, trabalhando com automação, sistemas de monitoração, virtualização, roteadores e switches, entre outros. Tenho experiência em serviços web e estou sempre atualizado com as últimas tecnologias e tendências do setor.</p>
-						<a href="#work" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Get started</a>
-					</div>
-					<div class="col-md-2"></div>
-				</div>
-			</div>
-		</div>
-		<!-- end home -->
+    <section id="sobre" class="section-shell split-section">
+      <div>
+        <span class="section-kicker">Sobre</span>
+        <h2>Perfil técnico hands-on, com foco em confiabilidade e segurança.</h2>
+      </div>
+      <div class="copy-block">
+        <p>
+          Profissional de TI com sólida atuação em DevOps, automação, monitoramento e
+          infraestrutura. Minha base técnica combina operação Linux, containers, redes,
+          virtualização, pipelines e integrações por API para sustentar ambientes críticos.
+        </p>
+        <p>
+          O objetivo é simples: reduzir risco operacional, melhorar visibilidade, padronizar
+          deploys e criar mecanismos de resposta rápida sem abrir mão de controle, rastreabilidade
+          e boas práticas de segurança.
+        </p>
+      </div>
+    </section>
 
-		<!-- start work -->
-		<div id="work" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow bounce">
-					</div>
-                </div>
+    <section id="especialidades" class="section-shell">
+      <div class="section-heading">
+        <span class="section-kicker">Especialidades</span>
+        <h2>Áreas onde gero mais impacto</h2>
+      </div>
 
-                <div class="row">
-					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
-						<div class="media">
-							<div class="media-body">
-								<h3 class="media-heading"></h3>
-								<img src="images/zcp.png" class="img-responsive">
-							</div>
-						</div>
-					</div>
+      <div class="cards-grid">
+        <article class="service-card">
+          <div class="card-icon">01</div>
+          <h3>Monitoramento & Observabilidade</h3>
+          <p>Zabbix, discovery, templates, triggers, LLD, integrações por API, dashboards e alertas orientados a impacto.</p>
+        </article>
+        <article class="service-card">
+          <div class="card-icon">02</div>
+          <h3>Automação & IaC</h3>
+          <p>Ansible, shell scripts, validações, padronização de deploys e rotinas repetíveis para reduzir erro humano.</p>
+        </article>
+        <article class="service-card">
+          <div class="card-icon">03</div>
+          <h3>Containers & CI/CD</h3>
+          <p>Docker, Compose, Swarm, GitLab Runner, pipelines de validação, deploy controlado e rollback operacional.</p>
+        </article>
+        <article class="service-card">
+          <div class="card-icon">04</div>
+          <h3>Segurança operacional</h3>
+          <p>Hardening básico, princípio do menor privilégio, controle de exposição, TLS, secrets e segregação de acesso.</p>
+        </article>
+      </div>
+    </section>
 
-					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
-						<div class="media">
-							<div class="media-body">
-								<h3 class="media-heading"></h3>
-								<img src="images/gitlab.png" class="img-responsive">
-							</div>
-						</div>
-					</div>
+    <section id="experiencia" class="section-shell timeline-section">
+      <div class="section-heading">
+        <span class="section-kicker">Experiência</span>
+        <h2>Experiência profissional alinhada ao LinkedIn</h2>
+        <p class="section-note">Resumo baseado nas informações públicas do perfil LinkedIn informado.</p>
+      </div>
 
-					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
-						<div class="media">
-							<div class="media-body">
-								<h3 class="media-heading"></h3>
-								<img src="images/asterisk.png" class="img-responsive">
-							</div>
-						</div>
-					</div>
+      <div class="timeline-card">
+        <div class="timeline-marker" aria-hidden="true"></div>
+        <div>
+          <span class="timeline-company">LGTI • Ribeirão Preto, São Paulo</span>
+          <h3>DevOps, automação, monitoramento e infraestrutura</h3>
+          <p>
+            Atuação voltada à operação e evolução de ambientes de TI, com foco em disponibilidade,
+            observabilidade, automação e sustentação de serviços críticos.
+          </p>
+          <ul class="impact-list">
+            <li>Construção e melhoria de rotinas de monitoramento, alertas e discovery.</li>
+            <li>Automação de tarefas operacionais e deploys com scripts, Ansible e pipelines.</li>
+            <li>Administração de servidores Linux, containers, redes, virtualização e integrações.</li>
+            <li>Diagnóstico de incidentes, melhoria de rastreabilidade e redução de intervenção manual.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-				</div>
-			</div>
-		</div>
-		<!-- end work -->
+    <section id="stack" class="section-shell stack-section">
+      <div class="section-heading">
+        <span class="section-kicker">Stack</span>
+        <h2>Ferramentas e tecnologias</h2>
+      </div>
 
-		<!-- start about -->
-		<div id="about" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.9s">
-						<h2>Sobre Mim</h2>
-						<h4>Conhecimentos</h4>
-						<p>Foco em transformar a infraestrutura como código em vários tipos de cenários, atuando em monitoração de todos os dispositivos.</p>
-					</div>
-					<div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
-						<span class="text-top">Infraestrutura & Containers <small>95%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
-							</div>
-						<span>Rede <small>80%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-							</div>
-						<span>Monitoração <small>90%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-							</div>
-						<span>Automação <small>90%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-							</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- end about -->
+      <div class="tech-strip" aria-label="Tecnologias principais">
+        <div class="tech-item"><img src="images/tools/zabbix.png" alt="Zabbix" loading="lazy"><span>Zabbix</span></div>
+        <div class="tech-item"><img src="images/tools/docker.png" alt="Docker" loading="lazy"><span>Docker</span></div>
+        <div class="tech-item"><img src="images/tools/ansible.png" alt="Ansible" loading="lazy"><span>Ansible</span></div>
+        <div class="tech-item"><img src="images/tools/proxmox.png" alt="Proxmox" loading="lazy"><span>Proxmox</span></div>
+      </div>
 
-		<!-- start portfolio -->
-		<div id="portfolio" class="section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="wow bounce">
-						<img src="images/tools/devops.png" class="img-responsive"></h2>
-				</div>
+      <div class="skill-list">
+        <div class="skill-row"><span>Infraestrutura, Linux & Containers</span><strong>95%</strong><i style="--level:95%"></i></div>
+        <div class="skill-row"><span>Monitoramento & Observabilidade</span><strong>90%</strong><i style="--level:90%"></i></div>
+        <div class="skill-row"><span>Automação & CI/CD</span><strong>90%</strong><i style="--level:90%"></i></div>
+        <div class="skill-row"><span>Redes & Segurança operacional</span><strong>85%</strong><i style="--level:85%"></i></div>
+      </div>
+    </section>
 
-<!--				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/tools/ansible.png" class="img-responsive" alt="portfolio img">
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img">
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img">
-					</div>
-				</div>
-				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img">
-					</div>
-				</div>
-				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img5.jpg" class="img-responsive" alt="portfolio img">
-					</div>
-				</div> -->
-			</div>
-		</div>
-	</div>
-	<!-- end portfolio -->
+    <section id="certificacoes" class="section-shell">
+      <div class="section-heading">
+        <span class="section-kicker">Credenciais</span>
+        <h2>Certificações e formações</h2>
+      </div>
 
-		<!-- start contact -->
-		<div id="contact" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-5 col-lg-offset-1 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-						<address>
-							<p class="contact-title">Contato</p>
-							<p><a href="https://www.linkedin.com/in/lucaspadilia/" class="fa fa-linkedin"></a> /lucaspadilia</p>
-							<p><i class="fa fa-envelope-o"></i> padilia.lucas@gmail.com</p>
-							<p><i class="fa fa-map-marker"></i> Ribeirão Preto - SP, Brasil</p>
-						</address>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- end contact -->
+      <div class="cert-grid">
+        <article class="cert-card"><img src="images/zcp.png" alt="Zabbix Certified Professional" loading="lazy"><h3>Zabbix Certified Professional 5.0</h3></article>
+        <article class="cert-card"><img src="images/zcp.png" alt="Zabbix Certified Specialist" loading="lazy"><h3>Zabbix Certified Specialist 5.0</h3></article>
+        <article class="cert-card"><img src="images/gitlab.png" alt="GitLab Certified Associate" loading="lazy"><h3>GitLab Certified Associate</h3></article>
+      </div>
+    </section>
 
-		<!-- start footer -->
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow fadeIn" data-wow-delay="0.9s">
-						<p>Copyright &copy; 2023 Lucas Padilia
-						<hr>
-						<ul class="social-icon">
-							<li><a href="https://www.linkedin.com/in/lucaspadilia/" class="fa fa-linkedin"></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- end footer -->
+    <section id="contato" class="section-shell contact-section">
+      <div>
+        <span class="section-kicker">Contato</span>
+        <h2>Vamos conversar sobre infraestrutura, automação, segurança ou monitoramento?</h2>
+      </div>
+      <div class="contact-card">
+        <a href="https://www.linkedin.com/in/lucaspadilia/" target="_blank" rel="noopener noreferrer">LinkedIn /lucaspadilia</a>
+        <a href="mailto:padilia.lucas@gmail.com">padilia.lucas@gmail.com</a>
+        <span>Ribeirão Preto - SP, Brasil</span>
+      </div>
+    </section>
+  </main>
 
-	</div>
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Lucas Padilia. Portfólio publicado via GitHub Pages.</p>
+  </footer>
 
-		<!-- jQuery -->
-		<script src="js/jquery.js"></script>
-		<!-- bootstrap -->
-		<script src="js/bootstrap.min.js"></script>
-		<!-- fullpage -->
-		<script src="js/jquery.fullPage.js"></script>
-		<!-- smoothScroll -->
-		<script src="js/smoothscroll.js"></script>
-		<!-- wow -->
-		<script src="js/wow.min.js"></script>
-		<!-- text rotater -->
-		<script src="js/jquery.simple-text-rotator.js"></script>
-		<!-- custom -->
-		<script src="js/custom.js"></script>
-
-	</body>
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+  <script src="js/main.js" defer></script>
+</body>
 </html>
